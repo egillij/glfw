@@ -2,7 +2,7 @@ project "GLFW"
 	kind "StaticLib"
 	language "C"
 	
-	targetdit("bin/" .. outputdir .. "/%{prj.name}")
+	targetdir("bin/" .. outputdir .. "/%{prj.name}")
 	objdir("bin-int/" .. outputdir .. "/%{prj.name}")
 	
 	files
